@@ -7,6 +7,7 @@ func Finish(i int) {
 }
 
 func main() {
+	// loop 5 times
 	for i := 1; i <= 5; i++ {
 		func() {
 			fmt.Printf("task %d started\n", i)
